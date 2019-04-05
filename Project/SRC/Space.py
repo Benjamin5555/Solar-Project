@@ -44,8 +44,7 @@ class Space():
         Simulates a time interval for the space object i.e. simulates the movement of all objects 
         over some time interval which can be given as a parameter or default use the objects 
         timeinterval defined at creation 
-        TODO: THERE MAY BE ISSUES WITH THIS HOWEVER THIS CREATES THE EXPECTED BEHAVIOUR as discussed 
-        in project report
+
         """
        
         if(timeInterval == None):
@@ -117,12 +116,14 @@ class Space():
         Adds a body to the space to be simulated ensuring this doesn't cause an error
         """
         try:
-            self.__bodies.append(Body(self.__bodies,bodyName,xPosition,yPosition,mass,radius,initialXVelocity,initialYVelocity))
+            self.__bodies.append(Body(self.__bodies,bodyName,xPosition,yPosition,\
+                                      mass,radius,initialXVelocity,initialYVelocity))
         except ValueError:
             print("Body "+bodyName + "was not added to the system due to one of its parameters being invalid")
             return 
 
-    def launchFromSurface(self,bodyName,launchBodyName,latitude,mass,radius,initialXVelocity,initialYVelocity):
+    def launchFromSurface(self,bodyName,launchBodyName,latitude,\
+                          mass,radius,initialXVelocity,initialYVelocity):
         """
         Latitude should be given in degrees
         Launches a Probe object from the surface

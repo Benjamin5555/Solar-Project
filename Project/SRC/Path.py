@@ -1,7 +1,8 @@
 class Path():
     def __init__(self,xPos,yPos,radius=50,color='r',name=""):
         """
-        Class providing a structure to store a data set and store the path taken by a body in (a) space (object)
+        Class providing a structure to store a data set and store the path taken by a body in (a)
+        space (object)
         """
         self.xPositions = [xPos]
         self.yPositions = [yPos]

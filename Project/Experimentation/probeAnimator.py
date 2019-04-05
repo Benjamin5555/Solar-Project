@@ -4,12 +4,13 @@
 # size and mass to those used in NASA's Viking Missions                                            # 
 # (SOURCE https://www.nasa.gov/redplanet/viking.html)                                              #
 ####################################################################################################
+import sys
+sys.path.append("../SRC")
 from AnimateSpace import AnimateSpace
 from Space import Space
-import sys
 def main():
     space =Space(int(sys.argv[4]),sys.argv[5]) 
-    space.addFromFile("PlanetData/innerPlanets.csv")
+    space.addFromFile("../SRC/PlanetData/innerPlanets.csv")
 
 
     space.launchFromSurface("PROBE","EARTH",int(sys.argv[1]),3000,3,int(sys.argv[2]),int(sys.argv[3]))

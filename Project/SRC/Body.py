@@ -45,7 +45,8 @@ class Body():
         
     def __beemanPosTerm(self,timeInterval,stepForwardAccel):
         """
-        Helper function to improve clarity of the calcNewPosition method and break down the Beeman integration method
+        Helper function to improve clarity of the calcNewPosition method and break down the Beeman 
+        integration method
         """
         return ((1/6)*(4*stepForwardAccel[0]-self._acceleration[0])*(timeInterval**2),\
                 (1/6)*(4*stepForwardAccel[1]-self._acceleration[1])*(timeInterval**2))
@@ -61,7 +62,8 @@ class Body():
 
     def __beemanVelTerm(self,timeInterval,stepForwardAccel):
         """
-        Helper function to improve clarity of the calcNewVelocity method and break down the Beeman integration method
+        Helper function to improve clarity of the calcNewVelocity method and break down the Beeman
+         integration method
         as well as handling the updating of acceleration variables
         """
         stepBackAccel = self._acceleration      #= a(t-1)
@@ -106,9 +108,11 @@ class Body():
             if(self == body): #Check valid to calculate on 
                 continue
             if(self.calcDistanceBetween(body.getPos())<=self._radius+body.getRadius()):
-                #If this body, or the other body has been involved in a collision then they cannot be reliably simulated and hence should be ignored
+                #If this body, or the other body has been involved in a collision then they cannot 
+                # be reliably simulated and hence should not be whilst this is true and marked that 
+                # this has occured for the future
                 self._collided = True
-                #continue
+                continue
 
             forceTotal = self.calcMagOfForceFromBody(body) 
             theta = self.calculateAngleFromX(body)            

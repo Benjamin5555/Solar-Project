@@ -21,8 +21,6 @@ class AnimateSpace():
         
         self.__bodies = self.space.getBodies()
 
-        #Runs an initial interval sim to allow setup of various amination parameters
-        #self.space.simulateInterval(self.timeInterval)
         self.__setupAnimator()
         
 
@@ -53,8 +51,8 @@ class AnimateSpace():
 
     def saveExistingDataAnimation(self,data,name = "../OUTPUT/output.mp4"):
         """
-        When given a set (list) of already produced data about the bodies in a space over the whole simulation, will
-        save an animated graphic representing the space over time
+        When given a set (list) of already produced data about the bodies in a space over the whole
+        simulation, will save an animated graphic representing the space over time
         """
         self.dataSet = data
         anim =FuncAnimation(self.fig,self.__animateData,interval= 100,frames = len(self.dataSet))
@@ -62,8 +60,8 @@ class AnimateSpace():
 
     def animateExistingData(self,data):
         """
-        When given a set (list) of already produced data about the bodies in a space over the whole simulation, will
-        display an animated graphic representing the space over time
+        When given a set (list) of already produced data about the bodies in a space over the whole 
+        simulation, will display an animated graphic representing the space over time
         """
         self.dataSet = data
         anim =FuncAnimation(self.fig,self.__animateData,interval= 1,frames = len(self.dataSet),repeat = True)
@@ -78,8 +76,9 @@ class AnimateSpace():
 
     def __animateData(self,i):
         """
-        Provides the iterative animate function when animating a dataset by setting the self.__bodies property to the
-        dataset at the animation index (i) which will become a frame of the final animation
+        Provides the iterative animate function when animating a dataset by setting the 
+        self.__bodies property to the dataset at the animation index (i) which will become a frame 
+        of the final animation
         """
         self.__bodies = self.dataSet[i]
         self.__updateAxes()
@@ -101,10 +100,12 @@ class AnimateSpace():
             self.bodyGraphics = []
             self.paths = []
             for body in self.__bodies :
-                color = (random()*1,random()*1,random()*1) #Gets a random colour for each body to animate
-                self.bodyGraphics.append(patches.Circle(body.getPos(),body.getRadius(),label=body.getName(),color = color))
+                color = (random()*1,random()*1,random()*1) #Gets a random colour for each body 
+                self.bodyGraphics.append(patches.Circle(body.getPos(),body.getRadius(),\
+                                                        label=body.getName(),color = color))
                 self.ax.add_patch(self.bodyGraphics[-1])
-                self.paths.append(Path(body.getPos()[0],body.getPos()[1],self.bodyGraphics[-1].get_linewidth(),color))
+                self.paths.append(Path(body.getPos()[0],body.getPos()[1],\
+                                       self.bodyGraphics[-1].get_linewidth(),color))
 
                 
     def __updateAxes(self):

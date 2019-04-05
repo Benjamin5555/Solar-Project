@@ -21,7 +21,8 @@ class Probe(Body):
         """
         Copies the probe object to create a new separate but equivalent object
         """
-        return Probe(self._bodies, self._name, self._pos[0], self._pos[1], self._mass, self._radius, self._velocity[0], self._velocity[1])
+        return Probe(self._bodies, self._name, self._pos[0], self._pos[1],\
+                     self._mass, self._radius, self._velocity[0], self._velocity[1])
 
 
 

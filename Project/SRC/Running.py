@@ -4,7 +4,8 @@ import sys
 class Running(threading.Thread):
     def __init__(self, name="default"):
         """
-        Displays a notification on the terminal that a process is running, when called shows notification
+        Displays a notification on the terminal that a process is running, when called shows
+        notification
         When call join ends notification
         """
         threading.Thread.__init__(self)
