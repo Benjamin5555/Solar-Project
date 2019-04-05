@@ -1,0 +1,61 @@
+@startuml test
+    Space "1" o-- "*" Body
+    AnimateSpace "1" o-- "1" Space
+    AnimateSpace "1" o-- "*" Path
+    Body <|-- Probe
+
+    class AnimateSpace {
+        liveSim()
+        saveAnimateExistingData()
+        animateExistingData()
+    }
+
+    class Body {
+        _name
+        _pos
+        _mass
+        _velocity
+        _radius
+        _acceleration
+        _collided
+        _bodies
+        simulate()
+        getKineticEnergy()
+        getGPE()
+        checkCollided()
+    }
+
+    class Space{
+        __timeInterval
+        __time
+        simulateInterval()
+        simulatePeriodAndTrace()
+        getSystemKineticEnergy()
+        getSystemGPE()
+        getTotalEnergy()
+        add()
+        addBody()
+        addFromTime()
+        launchFromSurface()
+        writeSystemData()
+        copyBodies()
+    }
+
+    class Probe {
+        isInRange()
+    }
+    
+    class Path{
+        xPositions
+        yPositions
+        size
+        colour
+        name
+        update()
+    }
+
+
+
+
+@enduml
+ 

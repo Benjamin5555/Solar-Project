@@ -1,0 +1,11 @@
+@startuml
+(*)-->"//Call Simulate method"
+--> "stepForwardAcceleration = self.__acceleration"
+--> "calculateNewPosition()"
+--> "StepBackAcceleration = self.__acceleration"
+--> "self.__acceleration = stepForwardAcceleration"
+--> "stepForwardAcceleration = calcAccOnBody()"
+--> "calcNewVelocity()"
+--> "//Updated bodies properties"
+--> (*)
+@enduml

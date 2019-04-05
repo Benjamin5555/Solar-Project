@@ -1,0 +1,24 @@
+\babel@toc {UKenglish}{}
+\contentsline {section}{\numberline {1}Introduction \& Aims}{1}% 
+\contentsline {section}{\numberline {2}Theory used to simulate orbital motion}{1}% 
+\contentsline {subsection}{\numberline {2.1}The Gravitational force}{1}% 
+\contentsline {subsection}{\numberline {2.2}Potential and Kinetic Energies of objects moving in space}{1}% 
+\contentsline {section}{\numberline {3}Implemented code and Experimental Method}{2}% 
+\contentsline {subsection}{\numberline {3.1}Overall interaction between objects}{2}% 
+\contentsline {subsection}{\numberline {3.2}Bodies within space - The Body and Probe Class}{3}% 
+\contentsline {subsubsection}{\numberline {3.2.1}Simulating changes in position - The Beeman Integration method}{3}% 
+\contentsline {subsubsection}{\numberline {3.2.2}Dealing with collisions}{5}% 
+\contentsline {subsection}{\numberline {3.3}The Programs simulation space - The Space Class}{5}% 
+\contentsline {subsubsection}{\numberline {3.3.1}Generating data on bodies through simulation}{5}% 
+\contentsline {subsubsection}{\numberline {3.3.2}Launching from a body}{5}% 
+\contentsline {subsection}{\numberline {3.4}Animating the produced data - The AnimateSpace Class}{5}% 
+\contentsline {subsection}{\numberline {3.5}Experimental Scripts to produce data}{5}% 
+\contentsline {subsubsection}{\numberline {3.5.1}Constant Total Energy}{5}% 
+\contentsline {subsubsection}{\numberline {3.5.2}Probe Path From Earth to Mars}{6}% 
+\contentsline {section}{\numberline {4}Results \& Analysis}{7}% 
+\contentsline {subsection}{\numberline {4.1}Basic Program Functionality}{7}% 
+\contentsline {subsection}{\numberline {4.2}Conservation of total energy within the system}{8}% 
+\contentsline {subsection}{\numberline {4.3}Plotting a path to Mars}{10}% 
+\contentsline {section}{\numberline {5}Discussion on possible improvements}{13}% 
+\contentsline {section}{\numberline {6}Conclusions of Experimentation}{13}% 
+\contentsline {section}{\numberline {A}Further justification of implementation of simulating intervals method }{15}% 

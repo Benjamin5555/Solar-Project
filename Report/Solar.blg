@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=4000, hash_size=5000, hash_prime=4253
+The top-level auxiliary file: Solar.aux
+The style file: plain.bst
+Database file #1: biblography.bib
+Warning--to sort, need author or key in GRAVCONST
+Warning--to sort, need author or key in EarthEscapeVel
+Warning--empty note in PHYS1ANOTES
+Warning--empty note in CourseBook
+You've used 10 entries,
+            2118 wiz_defined-function locations,
+            554 strings with 5353 characters,
+and the built_in function-call counts, 1976 in all, are:
+= -- 186
+> -- 58
+< -- 0
++ -- 26
+- -- 16
+* -- 78
+:= -- 333
+add.period$ -- 27
+call.type$ -- 10
+change.case$ -- 38
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 75
+empty$ -- 199
+format.name$ -- 16
+if$ -- 417
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 2
+newline$ -- 50
+num.names$ -- 16
+pop$ -- 72
+preamble$ -- 1
+purify$ -- 28
+quote$ -- 0
+skip$ -- 62
+stack$ -- 0
+substring$ -- 69
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 4
+while$ -- 18
+width$ -- 12
+write$ -- 91
+(There were 4 warnings)

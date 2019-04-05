@@ -1,0 +1,56 @@
+\begin{thebibliography}{10}
+
+\bibitem{EarthEscapeVel}
+Escape velocity.
+\newblock
+  \url{"http://hyperphysics.phy-astr.gsu.edu/hbase/vesc.html"}[Accessed:2/4/2019].
+
+\bibitem{GRAVCONST}
+Codata internationally recommended 2014 values of the fundamental physical
+  constants, 2014.
+
+\bibitem{GravDiagram}
+Khan Academy.
+\newblock Gravitational attraction.
+\newblock
+  \url{"https://www.khanacademy.org/computing/computer-programming/programming-natural-simulations/programming-forces/a/gravitational-attraction"}[Accessed:1/4/2019].
+
+\bibitem{PHYS1ANOTES}
+Dr.~Ross Galloway.
+\newblock Notes for physics1a.
+\newblock 2017/2018.
+
+\bibitem{CourseBook}
+Prof.~Judy Hardy.
+\newblock Computer simulation course book.
+\newblock 2019.
+
+\bibitem{MatPlotLib}
+J.~D. Hunter.
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing In Science \& Engineering}, 9(3):90--95, 2007.
+
+\bibitem{MercuryOrbit}
+Sam Jarman.
+\newblock "correcting einstein’s calculation of the orbit of mercury".
+\newblock {\em Physics World}, 2018.
+
+\bibitem{MarsEarthData}
+NASA.
+\newblock Mars facts.
+\newblock
+  \url{"https://mars.nasa.gov/allaboutmars/facts/#?c=inspace&s=distance"}[Accessed:1/4/2019].
+
+\bibitem{VIKINGPROGRAMNASA}
+NASA.
+\newblock Viking mission overview, 2017.
+\newblock
+  \url{"https://www.nasa.gov/redplanet/viking.html"}[Accessed:1/4/2019].
+
+\bibitem{PlanetDat}
+Dr. David~R. Williams.
+\newblock Planetary fact sheet - metric.
+\newblock
+  \url{"https://nssdc.gsfc.nasa.gov/planetary/factsheet/"}[Accessed:2/4/2019].
+
+\end{thebibliography}
