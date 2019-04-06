@@ -31,7 +31,7 @@ class Probe(Body):
     def __eq__(self, other):
         """
         Ensures that equivalences are properly performed i.e. two objects are considered the same if
-         they are same type and have same name
+        they are same type and have same name
         """
         if isinstance(other, self.__class__):
             return self._name == other._name
@@ -39,5 +39,7 @@ class Probe(Body):
             return False
 
     def __ne__(self, other):
-
+        """
+        Ensures that equivalences are properly performed
+        """
         return not self.__eq__(other)

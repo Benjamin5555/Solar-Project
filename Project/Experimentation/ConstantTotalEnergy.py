@@ -17,7 +17,7 @@ from matplotlib import pyplot as plt
 
 
 PLANET_FILE ="../SRC/PlanetData/innerPlanets.csv"
-ENERGY_OUTPUT = "../OUTPUT/CONSTANT ENERGY Copy SCHEME DATA.txt"
+ENERGY_OUTPUT = "../OUTPUT/CONSTANT ENERGY Energy Output.txt"
 OVERALL_SIM_TIME = 3.154e+7
 TIME_INTERVAL = 3600 
 FILE_NAME = "../OUTPUT/CONSTANtENERGyTestOutputEnergies.png"

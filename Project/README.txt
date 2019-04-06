@@ -16,6 +16,9 @@ This project folder is broken into 4 sections:
 
 Main running of files that show tasks being completed are in Testing and Experimentation
 
+RUNALL script can be used to execute all main testing and experimentation files for test
+purposes
+
 #####################################      SOURCE FILES (SRC)      #################################
 
 --->SRC providing a class which implements the main required features and can be used by other code 

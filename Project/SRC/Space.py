@@ -3,7 +3,6 @@ from Probe import Probe
 from Running import Running
 import copy
 import math
-#TODO AUTO CALC TIME INTERVAL (i.e. to be ~1% of the shortest half )
 class Space():
     def __init__(self,timeInterval,energyOutputFile="../OUTPUT/EnergyOutput.txt"):
         """
