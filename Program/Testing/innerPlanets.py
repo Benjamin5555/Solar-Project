@@ -5,7 +5,7 @@
 # Also tests that the program is able to add an object from file                                   #
 ####################################################################################################
 import sys
-sys.path.append("../SRC")
+sys.path.append("../src")
 
 from AnimateSpace import AnimateSpace
 from Space import Space
@@ -16,7 +16,7 @@ ENERGY_OUTPUT_FILE = "../OUTPUT/InnerPlanetsEnergyOut.csv"
 
 def main():
     space =Space(TIME_INTERVAL,ENERGY_OUTPUT_FILE) 
-    space.addFromFile("../SRC/PlanetData/innerPlanets.csv")
+    space.addFromFile("../src/PlanetData/innerPlanets.csv")
 
     
     a=AnimateSpace(space)

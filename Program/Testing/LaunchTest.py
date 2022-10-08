@@ -4,7 +4,7 @@
 # from a body.                                                                                     #
 ####################################################################################################
 import sys
-sys.path.append("../SRC")
+sys.path.append("../src")
 import math
 from AnimateSpace import AnimateSpace
 from Space import Space

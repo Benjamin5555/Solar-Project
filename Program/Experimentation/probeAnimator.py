@@ -5,12 +5,12 @@
 # (SOURCE https://www.nasa.gov/redplanet/viking.html)                                              #
 ####################################################################################################
 import sys
-sys.path.append("../SRC")
+sys.path.append("../src")
 from AnimateSpace import AnimateSpace
 from Space import Space
 def main():
     space =Space(int(sys.argv[4]),sys.argv[5]) 
-    space.addFromFile("../SRC/PlanetData/innerPlanets.csv")
+    space.addFromFile("../src/PlanetData/innerPlanets.csv")
 
 
     space.launchFromSurface("PROBE","EARTH",int(sys.argv[1]),3000,3,int(sys.argv[2]),int(sys.argv[3]))

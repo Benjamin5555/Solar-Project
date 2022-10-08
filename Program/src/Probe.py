@@ -1,4 +1,4 @@
-from Body import Body
+from src.Body import Body
 
 class Probe(Body):
     def __init__(self, bodies, name, x, y, mass, radius, vx=0, vy=0):

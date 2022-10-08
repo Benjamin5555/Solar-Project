@@ -4,13 +4,13 @@
 # example. OUTPUTS IN SECONDS                                                                      # 
 ####################################################################################################
 import sys
-sys.path.append("../SRC")
+sys.path.append("../src")
 
 from AnimateSpace import AnimateSpace
 from Space import Space
 
 TIME_INTERVAL = 10000
-PLANET_DATA_FILE = "../SRC/PlanetData/innerPlanets.csv"
+PLANET_DATA_FILE = "../src/PlanetData/innerPlanets.csv"
 PLANET_YEAR_TO_GET = "EARTH"
 def main():
     space =Space(TIME_INTERVAL,"/dev/null") 

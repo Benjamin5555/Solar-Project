@@ -1,8 +1,8 @@
-from Space import Space
+from src.Space import Space
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from matplotlib import patches
-from Path import Path
+from src.Path import Path
 from random import random
 
 
@@ -89,6 +89,7 @@ class AnimateSpace():
         Method run to generate each frame of the matplotlib animation 
         """
         self.space.simulateInterval()
+        print(self.space.getSystemGPE(),self.space.getSystemKineticEnergy())
         return self.__updateAxes()
  
 

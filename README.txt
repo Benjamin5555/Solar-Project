@@ -25,9 +25,9 @@ Main running of files that show tasks being completed are in Testing and Experim
 RUNALL script can be used to execute all main testing and experimentation files for test
 purposes
 
-#####################################      SOURCE FILES (SRC)      #################################
+#####################################      SOURCE FILES (src)      #################################
 
---->SRC providing a class which implements the main required features and can be used by other code 
+--->src providing a class which implements the main required features and can be used by other code 
     to produce a valid outputs of body path traces, body data and animated paths alongside many 
     other smaller features.
     

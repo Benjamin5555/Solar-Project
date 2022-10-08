@@ -1,6 +1,6 @@
-from Body import Body
-from Probe import Probe
-from Running import Running
+from src.Body import Body
+from src.Probe import Probe
+from src.Running import Running
 import copy
 import math
 class Space():
@@ -175,6 +175,7 @@ class Space():
                 float(data[5]),\
                 float(data[6]),\
             )
+        file.close()
 
     def getTimeInterval(self):
         """

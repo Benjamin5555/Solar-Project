@@ -5,7 +5,7 @@
 # in space e.g. objects that have no stable orbit.                                                 # 
 ####################################################################################################
 import sys
-sys.path.append("../SRC")
+sys.path.append("../src")
 
 from AnimateSpace import AnimateSpace
 from Space import Space
@@ -14,7 +14,7 @@ TIME_INTERVAL = 10000
 OVERALL_SIM_TIME = 3.154e+7 #1 Years
 OUTPUT_FILE = "../OUTPUT/OrbitalPeriodsOfBodies.csv"
 ENERGIES_OUTPUT_FILE = "/dev/null"
-PLANETS_TO_SIM_DATA = "../SRC/PlanetData/innerPlanets.csv"
+PLANETS_TO_SIM_DATA = "../src/PlanetData/innerPlanets.csv"
 
 
 def main():

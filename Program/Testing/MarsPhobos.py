@@ -6,7 +6,7 @@
 ####################################################################################################
 
 import sys
-sys.path.append("../SRC")
+sys.path.append("../src")
 from AnimateSpace import AnimateSpace
 from Space import Space
 def main():

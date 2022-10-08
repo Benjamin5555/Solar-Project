@@ -10,13 +10,13 @@
 # Is basically used as a quick test of valid output being produced                                 #
 ####################################################################################################
 import sys
-sys.path.append("../SRC")
+sys.path.append("../src")
 
 from Space import Space
 from matplotlib import pyplot as plt
 
 
-PLANET_FILE ="../SRC/PlanetData/innerPlanets.csv"
+PLANET_FILE ="../src/PlanetData/innerPlanets.csv"
 ENERGY_OUTPUT = "../OUTPUT/CONSTANT ENERGY Energy Output.txt"
 OVERALL_SIM_TIME = 3.154e+7
 TIME_INTERVAL = 3600 

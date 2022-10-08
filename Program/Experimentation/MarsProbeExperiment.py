@@ -14,7 +14,7 @@
 ####################################################################################################
 
 import sys
-sys.path.append("../SRC")
+sys.path.append("../src")
 import time
 import math
 import Running
@@ -42,7 +42,7 @@ TIME_INTERVAL = 5000
 TIME_TO_SIM = 3.154e+7*(3/4) # three quaters of a year
 OUTPUT_PATH = "../OUTPUT/iterateOverLaunchParameters"\
                 +time.strftime("%a, %d %b %Y %H:%M:%S",time.gmtime())+".csv"
-PLANET_DATA = "../SRC/PlanetData/innerPlanets.csv"
+PLANET_DATA = "../src/PlanetData/innerPlanets.csv"
 ENERGY_OUT_FILE = "/dev/null" #Disregards the (large) amount of energy data produced
 LOW_INITIAL_X_VELOCITY= 9500
 LOW_INITIAL_Y_VELOCITY=  2000 
